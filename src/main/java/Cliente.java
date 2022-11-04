@@ -1,41 +1,51 @@
 
 public class Cliente {
-
-	private int saldoEspecial = 0;
-	private int saqueEspecial;
-	private int saldoEspecialAtt;
-
-	private int saldoComum = 0;
-	private int saqueComum;
-	private int saldoComumAtt;
 	
+	//Criação dos atributos que serão utilizados.
 
+	private String cliente;
+
+	private int saldoEspecial;
+	private int saqueEspecial;
+
+	private int saldoComum;
+	private int saqueComum;
+	
+	/**
+	 * 
+	 * - Criação do construtor vazio da classe.
+	 * 
+	 */
+	
 	public Cliente() {
 		super();
 	}
+	
+	// - Criação dos getters e setters dos atributos criados.
+	// - Os metodos vão ser utilizados na classe "Conta" quando instanciados e chamados.
 
-	public int solicitaSaqueEspecial(int saque) {
-		this.saldoEspecial = this.saldoEspecial - saque;
-		return saque;
+	public String getCliente() {
+		return cliente;
 	}
 
-	public int calculaSaldoEspecial() {
-		saldoEspecialAtt = this.saldoEspecial - this.saqueEspecial;
-		return saldoEspecialAtt;
+	public void setCliente(String cliente) {
+		this.cliente = cliente;
 	}
 
-	public int solicitaSaqueComum(int saque) {
-		this.saldoComum = this.saldoComum - saque;
-		return saque;
+	public int getSaldoEspecial() {
+		return saldoEspecial;
 	}
 
-	public String calculaSaldoComum() {
-		if (this.saqueComum <= this.saldoComum) {
-			return "Saque efetuado";
-		}
-		saldoComumAtt = this.saldoComum - this.saldoComum;
-		return "Saldo Insuficiente";
+	public void setSaldoEspecial(int saldoEspecial) {
+		this.saldoEspecial = saldoEspecial;
+	}
 
+	public int getSaqueEspecial() {
+		return saqueEspecial;
+	}
+
+	public void setSaqueEspecial(int saqueEspecial) {
+		this.saqueEspecial = saqueEspecial;
 	}
 
 	public int getSaldoComum() {
@@ -46,20 +56,12 @@ public class Cliente {
 		this.saldoComum = saldoComum;
 	}
 
-	public int getSaldoEspecialAtt() {
-		return saldoEspecialAtt;
+	public int getSaqueComum() {
+		return saqueComum;
 	}
 
-	public void setSaldoEspecialAtt(int saldoEspecialAtt) {
-		this.saldoEspecialAtt = saldoEspecialAtt;
-	}
-
-	public int getSaldoEspecial() {
-		return saldoEspecial;
-	}
-
-	public void setSaldoEspecial(int saldoEspecial) {
-		this.saldoEspecial = saldoEspecial;
+	public void setSaqueComum(int saqueComum) {
+		this.saqueComum = saqueComum;
 	}
 
 }
