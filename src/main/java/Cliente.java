@@ -1,36 +1,27 @@
-
 public class Cliente {
-	
-	//Criação dos atributos que serão utilizados.
 
-	private String cliente;
+	// Criação dos atributos que serão utilizados.
 
 	private int saldoEspecial;
 	private int saqueEspecial;
+	private int contaEspecial;
 
 	private int saldoComum;
 	private int saqueComum;
-	
+	private int contaComum;
+
 	/**
 	 * 
 	 * - Criação do construtor vazio da classe.
 	 * 
 	 */
-	
+
 	public Cliente() {
 		super();
 	}
 	
 	// - Criação dos getters e setters dos atributos criados.
 	// - Os metodos vão ser utilizados na classe "Conta" quando instanciados e chamados.
-
-	public String getCliente() {
-		return cliente;
-	}
-
-	public void setCliente(String cliente) {
-		this.cliente = cliente;
-	}
 
 	public int getSaldoEspecial() {
 		return saldoEspecial;
@@ -48,6 +39,14 @@ public class Cliente {
 		this.saqueEspecial = saqueEspecial;
 	}
 
+	public int getContaEspecial() {
+		return contaEspecial;
+	}
+
+	public void setContaEspecial(int contaEspecial) {
+		this.contaEspecial = contaEspecial;
+	}
+
 	public int getSaldoComum() {
 		return saldoComum;
 	}
@@ -62,6 +61,14 @@ public class Cliente {
 
 	public void setSaqueComum(int saqueComum) {
 		this.saqueComum = saqueComum;
+	}
+
+	public int getContaComum() {
+		return contaComum;
+	}
+
+	public void setContaComum(int contaComum) {
+		this.contaComum = contaComum;
 	}
 
 }
