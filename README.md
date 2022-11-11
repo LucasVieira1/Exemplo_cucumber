@@ -11,6 +11,9 @@
 ## 📚 Descrição
 Implementação dos testes em JUnit e testar os cenários criados.
 
+## 📄 Testes com JUnit
+JUnit é uma API de código aberto para a criação de testes unitários em Java, bem como outras linguagem compatíveis com a JVM, com o junit é permitido criar testes que são fáceis de escrever e executar, evitandos problemas futuros na sua aplicação.
+
 ## 🔧 Tipo de cliente
 Ao iniciar os testes, existe a opção de escolher testar por cliente Comum (false) ou cliente especial (true).
 
