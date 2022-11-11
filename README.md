@@ -12,7 +12,7 @@
 Implementação dos testes em JUnit e testar os cenários criados.
 
 ## 🤵 Cliente especial
-Se o cliente for especial e seu saldo for negativo, ao tentar efetuar qualquer saque o sistema deve deixar e bloquear o cliente comum de efetuar um saque com saldo negativo (seu saldo é insuficiente), 5 medotodos passam e 1 não
+Se o cliente for especial e seu saldo for negativo, ao tentar efetuar qualquer saque o sistema deve deixar e bloquear o cliente comum de efetuar um saque com saldo negativo (seu saldo é insuficiente), 5 medotodos passam e 1 não .
 <br>
 ![image](https://user-images.githubusercontent.com/92065269/201438779-5ba99e12-6666-41b0-ac23-fd0e677c1d2c.png)
 <br>
@@ -21,8 +21,8 @@ Se o cliente for especial e seu saldo for negativo, ao tentar efetuar qualquer s
 ![image](https://user-images.githubusercontent.com/92065269/201439518-7ee703ba-ccba-4b85-9415-585c0344c989.png)
 
 
-## 🤵 Cliente especial
-Se o cliente for comum e seu saldo for negativo, ao tentar efetuar qualquer saque o sistema não deve deixar e todos os testes devem passar, pois os metodos foram criados para gerar o erro "saldo insuficiente"
+## 🙍‍♂️ Cliente comum
+Se o cliente for comum e seu saldo for negativo, ao tentar efetuar qualquer saque o sistema não deve deixar e todos os testes devem passar, pois os metodos foram criados para gerar o erro "saldo insuficiente".
 <br>
 ![image](https://user-images.githubusercontent.com/92065269/201439194-80c137c4-2fa1-4a64-abe3-3d1db254dc1e.png)
 <br>
